@@ -1,2 +1,3 @@
 # 补充需要代理的域名
 DOMAIN-SUFFIX,linux.do
+DOMAIN-SUFFIX,org.lsposed.manager

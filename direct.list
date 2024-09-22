@@ -1,4 +1,12 @@
 # 补充直连的域名
+
 DOMAIN-SUFFIX,qm.live
 DOMAIN-SUFFIX,pull.bztzhu.top
 DOMAIN-SUFFIX,msn.cn
+
+# DNS
+DOMAIN-SUFFIX,dns.alidns.com
+DOMAIN-SUFFIX,dns.pub
+DOMAIN-SUFFIX,doh.pub
+DOMAIN-SUFFIX,dot.pub
+DOMAIN-SUFFIX,onedns.net

@@ -1,7 +1,7 @@
 # Mac Download
-PROCESS-NAME,fdm.exe
-PROCESS-NAME,Folx.exe
-PROCESS-NAME,NetTransport.exe
+#PROCESS-NAME,fdm.exe
+#PROCESS-NAME,Folx.exe
+#PROCESS-NAME,NetTransport.exe
 PROCESS-NAME,Thunder.exe
 # bt
 DOMAIN-SUFFIX,smtp

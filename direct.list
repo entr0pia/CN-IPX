@@ -5,7 +5,7 @@ DOMAIN-SUFFIX,pull.bztzhu.top
 DOMAIN-SUFFIX,msn.cn
 
 # DNS
-DOMAIN,dns.alidns.com
+DOMAIN-SUFFIX,alidns.com
 DOMAIN,dns.pub
 DOMAIN,doh.pub
 DOMAIN,dot.pub

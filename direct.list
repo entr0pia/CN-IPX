@@ -3,6 +3,7 @@ DOMAIN-SUFFIX,internal
 DOMAIN-SUFFIX,qm.live
 DOMAIN-SUFFIX,pull.bztzhu.top
 DOMAIN-SUFFIX,msn.cn
+DOMAIN,hxty.live
 
 # DNS
 DOMAIN-SUFFIX,alidns.com

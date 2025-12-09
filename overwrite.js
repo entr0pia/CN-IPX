@@ -2,22 +2,54 @@
 
 const newSniffer = {
   "enable": true,
+  "force-dns-mapping": true,
+  "parse-pure-ip": true,
+  "override-destination": false,
   "sniffing": [
     "tls",
     "http"
+  ],
+  "port-whitelist": [
+    "443",
+    "5228",
+    "8000-9000"
+  ],
+  "sniff": {
+    "HTTP": {
+      "ports": [
+        "80",
+        "8080-8880"
+      ],
+      "override-destination": true
+    },
+    "TLS": {
+      "ports": [
+        "443",
+        "5228",
+        "8443"
+      ]
+    },
+    "QUIC": {
+      "ports": [
+        "443",
+        "5228",
+        "8443"
+      ]
+    }
+  },
+  "force-domain": [
+    "+.v2ex.com"
   ],
   "skip-domain": [
     "Mijia Cloud",
     "dlg.io.mi.com",
     "+.apple.com"
   ],
-  "force-domain": [
-    "google.com"
+  "skip-src-address": [
+    "192.168.0.3/32"
   ],
-  "port-whitelist": [
-    "443",
-    "5228",
-    "8000-9000"
+  "skip-dst-address": [
+    "192.168.0.3/32"
   ]
 }
 

@@ -16,6 +16,7 @@ const newSniffer = {
   ],
   "port-whitelist": [
     "443",
+    "5228",
     "8000-9000"
   ]
 }

@@ -1,5 +1,25 @@
 // Define main function (script entry)
 
+const newSniffer = {
+  "enable": true,
+  "sniffing": [
+    "tls",
+    "http"
+  ],
+  "skip-domain": [
+    "Mijia Cloud",
+    "dlg.io.mi.com",
+    "+.apple.com"
+  ],
+  "force-domain": [
+    "google.com"
+  ],
+  "port-whitelist": [
+    "443",
+    "8000-9000"
+  ]
+}
+
 const newDns = {
   "enable": true,
   "use-system-hosts": true,
@@ -39,6 +59,7 @@ const newDns = {
 
 
 function main(config, profileName) {
+  config['sniffer'] = { ...config['sniffer'], ...newSniffer }
   config['dns'] = { ...config['dns'], ...newDns }
   return config;
 }

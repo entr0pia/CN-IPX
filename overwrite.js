@@ -10,6 +10,7 @@ const newDns = {
   "prefer-h3": false,
   "proxy-server-nameserver": [
     "https://dns.pub/dns-query",
+    "https://doh.apad.pro/dns-query",
     "180.184.1.1"
   ],
   "nameserver": [
@@ -24,6 +25,7 @@ const newDns = {
   ],
   "nameserver-policy": {
     "services.googleapis.cn": "tls://8.8.8.8",
+    "geosite:googlefcm": "tls://8.8.8.8",
     "dl.google.com": "https://dns.pub/dns-query",
     "geosite:cn": [
       "https://dns.alidns.com/dns-query",
@@ -37,6 +39,6 @@ const newDns = {
 
 
 function main(config, profileName) {
-  config['dns'] = {...config['dns'], ...newDns}
+  config['dns'] = { ...config['dns'], ...newDns }
   return config;
 }

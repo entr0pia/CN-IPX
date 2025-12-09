@@ -27,7 +27,6 @@ const newDns = {
     "dl.google.com": "https://dns.pub/dns-query",
     "geosite:cn": [
       "https://dns.alidns.com/dns-query",
-      "https://dns.pub/dns-query",
       "https://9999.alidns.com/dns-query",
       "https://doh.apad.pro/dns-query"
     ]

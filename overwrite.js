@@ -32,7 +32,7 @@ const newDns = {
       "https://doh.apad.pro/dns-query"
     ]
   },
-  "fallback": []
+  "fallback": null
 }
 
 

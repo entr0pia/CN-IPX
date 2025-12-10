@@ -5,15 +5,6 @@ const newSniffer = {
   "force-dns-mapping": true,
   "parse-pure-ip": true,
   "override-destination": false,
-  "sniffing": [
-    "tls",
-    "http"
-  ],
-  "port-whitelist": [
-    "443",
-    "5228",
-    "8000-9000"
-  ],
   "sniff": {
     "HTTP": {
       "ports": [

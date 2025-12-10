@@ -75,7 +75,7 @@ const newDns = {
       "https://dns.alidns.com/dns-query",
       "https://dns.pub/dns-query",
       "https://9999.alidns.com/dns-query",
-      "https://9999.alidns.com/dns-query"
+      "https://10000.alidns.com/dns-query"
     ]
   },
   "fallback": null

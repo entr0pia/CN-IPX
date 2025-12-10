@@ -54,7 +54,7 @@ const newDns = {
   "prefer-h3": false,
   "proxy-server-nameserver": [
     "https://dns.pub/dns-query",
-    "https://doh.apad.pro/dns-query",
+    "https://dns.alidns.com/dns-query",
     "180.184.1.1"
   ],
   "nameserver": [
@@ -75,7 +75,7 @@ const newDns = {
       "https://dns.alidns.com/dns-query",
       "https://dns.pub/dns-query",
       "https://9999.alidns.com/dns-query",
-      "https://doh.apad.pro/dns-query"
+      "https://9999.alidns.com/dns-query"
     ]
   },
   "fallback": null

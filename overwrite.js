@@ -55,12 +55,12 @@ const newDns = {
   "default-nameserver": [
     "119.29.29.29",
     "223.5.5.5",
-    "180.184.1.1" // 最近的运营商dns
+    "123.125.81.6" // 最近的运营商dns
   ],
   "proxy-server-nameserver": [
     "https://dns.pub/dns-query",
     "https://dns.alidns.com/dns-query",
-    "180.184.1.1"
+    "123.125.81.6"
   ],
   "nameserver": [
     "tls://1.0.0.1",

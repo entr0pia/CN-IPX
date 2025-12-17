@@ -9,7 +9,7 @@ const newSniffer = {
     "HTTP": {
       "ports": [
         "80",
-        "8080-8880"
+        "8000-9000"
       ],
       "override-destination": true
     },
@@ -52,6 +52,11 @@ const newDns = {
   "enhanced-mode": "redir-host",
   "respect-rules": true,
   "prefer-h3": false,
+  "default-nameserver": [
+    "119.29.29.29",
+    "223.5.5.5",
+    "180.184.1.1" // 最近的运营商dns
+  ],
   "proxy-server-nameserver": [
     "https://dns.pub/dns-query",
     "https://dns.alidns.com/dns-query",
@@ -61,11 +66,6 @@ const newDns = {
     "tls://1.0.0.1",
     "tls://8.8.8.8",
     "https://dns.google/dns-query"
-  ],
-  "default-nameserver": [
-    "119.29.29.29",
-    "223.5.5.5",
-    "180.184.1.1"
   ],
   "nameserver-policy": {
     "services.googleapis.cn": "tls://8.8.8.8",

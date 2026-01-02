@@ -23,7 +23,7 @@ const newDns = {
   ],
   'nameserver-policy': {
     'services.googleapis.cn': 'tls://8.8.8.8',
-    'geosite:googlefcm': 'https://dns.pub/dns-query',
+    'geosite:googlefcm': 'https://dns.google/dns-query',
     'dl.google.com': 'https://dns.pub/dns-query',
     'geosite:cn': [
       'https://dns.alidns.com/dns-query',
@@ -51,14 +51,14 @@ const newSniffer = {
     'TLS': {
       'ports': [
         '443',
-        '5228',
+        // '5228',
         '8443'
       ]
     },
     'QUIC': {
       'ports': [
         '443',
-        '5228',
+        // '5228',
         '8443'
       ]
     }

@@ -22,7 +22,7 @@ const newDns = {
     'https://dns.google/dns-query'
   ],
   'nameserver-policy': {
-    'services.googleapis.cn': 'tls://8.8.8.8',
+    'services.googleapis.cn': 'https://dns.google/dns-query',
     'geosite:googlefcm': 'https://dns.google/dns-query',
     'dl.google.com': 'https://dns.pub/dns-query',
     'geosite:cn': [

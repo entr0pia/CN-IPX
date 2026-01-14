@@ -37,7 +37,7 @@ const newDns = {
 
 const newSniffer = {
   'enable': true,
-  'force-dns-mapping': false,
+  'force-dns-mapping': true,
   'parse-pure-ip': true,
   'override-destination': false,
   'sniff': {
@@ -51,12 +51,14 @@ const newSniffer = {
     'TLS': {
       'ports': [
         '443',
+        '8228',
         '8443'
       ]
     },
     'QUIC': {
       'ports': [
         '443',
+        '8228',
         '8443'
       ]
     }

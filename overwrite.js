@@ -37,7 +37,7 @@ const newDns = {
 
 const newSniffer = {
   'enable': true,
-  'force-dns-mapping': true,
+  // 'force-dns-mapping': true,
   'parse-pure-ip': true,
   'override-destination': false,
   'sniff': {
@@ -51,14 +51,12 @@ const newSniffer = {
     'TLS': {
       'ports': [
         '443',
-        // '5228',
         '8443'
       ]
     },
     'QUIC': {
       'ports': [
         '443',
-        // '5228',
         '8443'
       ]
     }
@@ -69,8 +67,7 @@ const newSniffer = {
   'skip-domain': [
     'Mijia Cloud',
     'dlg.io.mi.com',
-    '+.apple.com',
-    'mtalk.google.com'
+    '+.apple.com'
   ],
   'skip-src-address': [
     '192.168.0.3/32'

@@ -37,7 +37,7 @@ const newDns = {
 
 const newSniffer = {
   'enable': true,
-  // 'force-dns-mapping': true,
+  'force-dns-mapping': false,
   'parse-pure-ip': true,
   'override-destination': false,
   'sniff': {

@@ -69,7 +69,8 @@ const newSniffer = {
   'skip-domain': [
     'Mijia Cloud',
     'dlg.io.mi.com',
-    '+.apple.com'
+    '+.apple.com',
+    'mtalk.google.com'
   ],
   'skip-src-address': [
     '192.168.0.3/32'

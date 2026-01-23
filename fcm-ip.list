@@ -11,4 +11,4 @@ IP-CIDR,142.250.152.188/32,no-resolve
 
 # Google download
 IP-CIDR,180.163.151.161/32,no-resolve
-IP-CIDR,180.163.150.333/32,no-resolve
+IP-CIDR,180.163.150.33/32,no-resolve

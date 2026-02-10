@@ -79,9 +79,15 @@ const newSniffer = {
   ]
 }
 
+const noQuic=[
+    'AND,((NETWORK,UDP),(DST-PORT,443),(GEOSITE,youtube)),REJECT',
+    'AND,((NETWORK,UDP),(DST-PORT,443),(GEOSITE,googlefcm)),REJECT'
+]
+
 // Define main function (script entry)
 function main(config, profileName) {
   config['dns'] = { ...config['dns'], ...newDns }
   config['sniffer'] = { ...config['sniffer'], ...newSniffer }
+  config['rules']={...noQuic, ...config['rules']}
   return config;
 }

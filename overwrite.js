@@ -87,17 +87,5 @@ const newRule = [
 function main(config, profileName) {
   config['dns'] = { ...config['dns'], ...newDns }
   config['sniffer'] = { ...config['sniffer'], ...newSniffer }
-  // 有些订阅转换会强制skip-cert-verify=false, 导致trojan协议失效
-  if (config['proxies'] && Array.isArray(config['proxies'])) {
-    config['proxies'] = config['proxies'].map(proxy => {
-      if (proxy.type === 'trojan') {
-        return {
-          ...proxy,
-          'skip-cert-verify': true
-        };
-      }
-      return proxy;
-    });
-  }
   return config;
 }

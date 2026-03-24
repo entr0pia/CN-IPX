@@ -81,10 +81,7 @@ const newSniffer = {
 
 const noQuic = [
     'AND,((NETWORK,UDP),(DST-PORT,443),(GEOSITE,youtube)),REJECT',
-    'AND,((NETWORK,UDP),(DST-PORT,443),(GEOSITE,googlefcm)),REJECT',
-    'DST-PORT,5228,谷歌FCM',
-    'DST-PORT,5229,谷歌FCM',
-    'DST-PORT,5230,谷歌FCM'
+    'DST-PORT,20000-65535,DIRECT'
 ]
 
 // Define main function (script entry)

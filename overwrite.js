@@ -80,7 +80,7 @@ const newSniffer = {
 }
 
 const noQuic=[
-    'AND,((NETWORK,UDP),(DST-PORT,443),(GEOSITE,youtube)),REJECT',
+//    'AND,((NETWORK,UDP),(DST-PORT,443),(GEOSITE,youtube)),REJECT',
     'DST-PORT,6000-7999,DIRECT',
     'DST-PORT,9000-17999,DIRECT',
     'DST-PORT,19000-65535,DIRECT',

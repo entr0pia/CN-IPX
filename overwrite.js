@@ -17,8 +17,7 @@ const newDns = {
     '123.125.81.6'
   ],
   'nameserver': [
-    'tls://1.0.0.1',
-    'tls://8.8.8.8',
+    'https://1.1.1.1/dns-query',
     'https://dns.google/dns-query'
   ],
   'nameserver-policy': {
@@ -32,7 +31,7 @@ const newDns = {
       'https://10000.alidns.com/dns-query'
     ]
   },
-  'fallback': null
+  'fallback': []
 }
 
 const newSniffer = {

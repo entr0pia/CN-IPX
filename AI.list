@@ -2,4 +2,4 @@ DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
 DOMAIN,cloudcode-pa.googleapis.com
 DOMAIN,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,clients6.google.com,PROXY
+DOMAIN-SUFFIX,clients6.google.com

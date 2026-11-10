@@ -3,3 +3,15 @@ DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
 DOMAIN,cloudcode-pa.googleapis.com
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,clients6.google.com
+DOMAIN,aicode.googleapis.com
+DOMAIN,cloudaicompanion.googleapis.com
+DOMAIN,aiplatform.googleapis.com
+DOMAIN,businessaicode.googleapis.com
+DOMAIN,auth.cloud.google
+DOMAIN,oauth2.googleapis.com
+DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+DOMAIN-SUFFIX,aicode.sandbox.googleapis.com
+
+# 兜底泛规则
+# DOMAIN-KEYWORD,cloudaicompanion
+# DOMAIN-KEYWORD,cloudcode-pa
